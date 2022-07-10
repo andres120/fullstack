@@ -1,0 +1,204 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #557c3e;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #19583c;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.navbar-header {
+  background-color: #19583c;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  padding-left: 35px;
+  height: 50px;
+}
+
+.nav-list {
+  margin-bottom: 0; 
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  background-color: #19583c;
+  color: #000;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav {
+  background-color: #19583c;
+  border-top: 0px;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+  background-color: #557c3e;
+  border-top: 2px solid #000;
+}
+
+#nav-list a:hover {
+  background: #19583c;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #557c3e;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px; /* Keeps the button aligned with food,llc */
+}
+
+.navbar-header .navbar-toggle.collapsed .icon-bar, .navbar-header button.navbar-toggle.collapsed {
+  border: 2px solid #000d;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+.container {
+  width: auto;
+}
+
+.container > a {
+  text-align: center;
+}
+
+#menu-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#menu-tile:hover {
+  box-shadow: 0px 0px 3px 3px black;
+}
+
+#our-menu h1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.8em;
+  padding-bottom: 20px;
+}
+
+#menu-tile {
+  background-color: #19583c;
+}
+
+#menu-tile p {
+  margin: 0 15px 0px 15px;
+  padding-top: 15px;
+  color: #000;
+}
+
+#menu-tile span {
+  position: absolute; 
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5em;
+  color: #000;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+  .container {
+    height: 80px;
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  .container {
+    /* padding-top: 10px; */ 
+    height: 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    /* padding-top: 10px; */
+    height: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+   
+  .navbar-brand h1 { 
+    padding-top: 10px;
+  } 
+  
+  /* Collapsed nav menu text */
+  
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+
+  #menu-tile {
+    /* width: 360px; */
+    margin: 0 auto 15px;
+  }
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  
+  .navbar-brand h1 { 
+    padding-top: 10px;
+  } 
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile {
+    /* width: 280px; */ 
+    margin: 0 auto 15px;
+  }
+}
+
+
+
