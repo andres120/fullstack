@@ -69,6 +69,7 @@ body {
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid #557c3e;
+  background-color: #19583c;
 }
 
 .navbar-header button.navbar-toggle {
@@ -78,6 +79,24 @@ body {
 
 .navbar-header .navbar-toggle.collapsed .icon-bar, .navbar-header button.navbar-toggle.collapsed {
   border: 2px solid #000d;
+  border-width: 2px;
+  background-color: #19583c;
+}
+
+.navbar-header .navbar-toggle.collapsed .icon-bar {
+  background-color: #000;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: #557c3e;
+}
+
+.navbar-header {
+  background-color: #19583c;
+}
+
+.navbar-header button.navbar-toggle:focus {
+  background-color: #19583c;
 }
 
 /* END HEADER */
